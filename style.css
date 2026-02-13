@@ -224,6 +224,7 @@ button {
 /* Vertical Blog Section */
 .vertical-blogs {
     padding: 80px 100px;
+    margin-top: 30px;
 }
 
 .vertical-header {
@@ -441,6 +442,72 @@ button {
 
 .input-error {
     border: 1px solid red;
+}
+
+/* contact page */
+.contact-section {
+  padding: 80px 20px;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  width: 100%;
+  max-width: 600px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.contact-container h2 {
+  margin-bottom: 10px;
+}
+
+.contact-container p {
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #007bff;
+}
+
+.contact-btn {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-btn:hover {
+  background: #0056b3;
+}
+
+.result-message {
+  margin-top: 15px;
+  font-size: 14px;
+  display: none;
 }
 
 @media screen and (max-width: 1024px) {
