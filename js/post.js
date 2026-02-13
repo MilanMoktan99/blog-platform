@@ -3,25 +3,25 @@ const posts = [
     id: 1,
     title: "The Future of Web Development",
     description: "Discover the trends shaping modern web development in 2026.",
-    image: "assets/images/img1.jpg"
+    image: "/assets/images/img1.jpg"
   },
   {
     id: 2,
     title: "Design Tips for Beginners",
     description: "Simple UI/UX principles to improve your design instantly.",
-    image: "assets/images/img2.jpg"
+    image: "/assets/images/img2.jpg"
   },
   {
     id: 3,
     title: "Why Blogging Still Matters",
     description: "How blogging builds authority and long-term brand value.",
-    image: "assets/images/img3.jpg"
+    image: "/assets/images/img3.jpg"
   },
   {
     id: 4,
     title: "Mastering JavaScript",
     description: "Level up your JavaScript skills with practical techniques.",
-    image: "assets/images/img4.jpg"
+    image: "/assets/images/img4.jpg"
   }
 ];
 
@@ -31,10 +31,7 @@ const blogsContainer = document.getElementById("blogs-container");
 
 function renderBlogs() {
 
-    if (typeof posts === "undefined") {
-    console.error("posts is not defined. Check post.js loading.");
-    return;
-  }
+    if (!blogsContainer) return;
   
   posts.forEach(post => {
     const blogCard = document.createElement("div");
