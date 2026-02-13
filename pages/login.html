@@ -1,11 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily Insights | login</title>
-</head>
-<body>
-    <h2>login</h2>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Insights | Login</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="auth-container">
+      <div class="auth-card">
+        <h2>Welcome Back 👋</h2>
+        <p class="auth-subtitle">Login to continue to Daily Insights</p>
+
+        <form id="loginForm">
+          <div class="input-group">
+            <input
+              type="email"
+              id="loginEmail"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+
+          <div class="input-group password-group">
+            <input
+              type="password"
+              id="loginPassword"
+              placeholder="Enter your password"
+              required
+            />
+            <img
+              src="../assets/icons/view.png"
+              id="togglePassword"
+              class="eye-icon"
+            />
+          </div>
+
+          <button type="submit" class="auth-btn">Login</button>
+        </form>
+
+        <p class="auth-switch">
+          Don't have an account?
+          <a href="./register.html">Sign up</a>
+        </p>
+      </div>
+    </div>
+
+    <script src="../js/auth.js"></script>
+  </body>
 </html>

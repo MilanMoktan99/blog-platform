@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Insights | Register</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="auth-container">
+      <div class="auth-card">
+        <h2>Create Account 🚀</h2>
+        <p class="auth-subtitle">Join Daily Insights today</p>
+
+        <form id="registerForm">
+          <div class="input-group">
+            <input
+              type="text"
+              id="registerName"
+              placeholder="Full Name"
+              required
+            />
+          </div>
+
+          <div class="input-group">
+            <input
+              type="email"
+              id="registerEmail"
+              placeholder="Email Address"
+              required
+            />
+          </div>
+
+          <div class="input-group password-group">
+            <input
+              type="password"
+              id="registerPassword"
+              placeholder="Create Password"
+              required
+            />
+            <img
+              src="../assets/icons/view.png"
+              id="toggleRegisterPassword"
+              class="eye-icon"
+            />
+          </div>
+          <p class="error-message" id="passwordError"></p>
+
+          <button type="submit" class="auth-btn">Register</button>
+        </form>
+
+        <p class="auth-switch">
+          Already have an account?
+          <a href="./login.html">Login</a>
+        </p>
+      </div>
+    </div>
+
+    <script src="../js/auth.js"></script>
+  </body>
+</html>
