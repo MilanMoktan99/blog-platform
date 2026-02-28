@@ -116,6 +116,7 @@ Daily-Insights/
 
 # ⚙️ Installation & Setup
 
+``` bash
 ## 1️⃣ Clone the Repository
 
 ```bash
