@@ -86,29 +86,32 @@ Blog data is stored in JavaScript objects and rendered dynamically using DOM man
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
+
+```
 Daily-Insights/
 │
 ├── index.html
 ├── style.css
+│
 ├── js/
-│ ├── post.js
-│ ├── auth.js
-│ └── script.js
+│   ├── post.js
+│   ├── auth.js
+│   └── script.js
 │
 ├── pages/
-│ ├── blog.html
-│ ├── login.html
-│ ├── register.html
-│ └── contact.html
+│   ├── blog.html
+│   ├── login.html
+│   ├── register.html
+│   └── contact.html
 │
 ├── assets/
-│ ├── images/
-│ │ └── homepage.png
-│ └── icons/
+│   ├── images/
+│   │   └── homepage.png
+│   └── icons/
 │
 └── README.md
-
+```
 ---
 
 # ⚙️ Installation & Setup
