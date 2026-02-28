@@ -15,8 +15,8 @@ This project was built as an academic and portfolio demonstration of clean, modu
 
 ## 🚀 Live Demo
 
-🔗 **Live Website:** https://blog-platform-pi-five.vercel.app/
-🔗 **GitHub Repository:** https://github.com/yourusername/daily-insights  
+🔗 **Live Website:** https://blog-platform-pi-five.vercel.app/  
+🔗 **GitHub Repository:** https://github.com/MilanMoktan99/blog-platform  
 
 ---
 
